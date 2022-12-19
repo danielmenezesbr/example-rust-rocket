@@ -9,6 +9,7 @@ tasks:
   command: cargo run
 # In parallel, open a terminal with automatic type-checking for development
 - command: cargo watch -x check
+- command: gp preview $(gp url 8000)/hello/John/58
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
 ports:
